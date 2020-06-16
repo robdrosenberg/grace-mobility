@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
 )
 
 const StyledHeader = styled.header`
-  margin: 2.8rem 3.8rem;
+  margin: 2.8rem 5rem;
 `
 
 const NavContainer = styled.div`
