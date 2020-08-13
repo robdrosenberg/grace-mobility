@@ -33,6 +33,7 @@ const NavLinks = styled.div`
     text-decoration: none;
     color: black;
     font-size: 1.6rem;
+    font-weight: bold;
     &:not(:last-child) {
       margin-right: 3rem;
       

@@ -6,19 +6,19 @@ import ButtonLink from '../buttonLink'
 
 const Hero = ({ }) => {
   return (
-      <HeroContainer>
-        <HeroImg src={Van} alt="Transport Van with a wheel chair lift" />
-        <HeroContent>
-          <HeroHeading>
-            <HeroSpan>Hospital</HeroSpan> <br />
-            <HeroSpan>Transportation You</HeroSpan> <br />
-            <HeroSpan>Can Depend On</HeroSpan></HeroHeading>
-          <ButtonContainer>
-            <ButtonLink to="/contact-us" text="Contact Us" />
-            <ButtonLink to="#learn-more" text="Learn More" />
-          </ButtonContainer>
-        </HeroContent>
-      </HeroContainer>
+    <HeroContainer>
+      <HeroImg src={Van} alt="Transport Van with a wheel chair lift" />
+      <HeroContent>
+        <HeroHeading>
+          <HeroSpan>Hospital</HeroSpan> <br />
+          <HeroSpan>Transportation You</HeroSpan> <br />
+          <HeroSpan>Can Depend On</HeroSpan></HeroHeading>
+        <ButtonContainer>
+          <ButtonLink to="/contact-us" text="Contact Us" />
+          <ButtonLink to="#learn-more" text="Learn More" />
+        </ButtonContainer>
+      </HeroContent>
+    </HeroContainer>
   )
 }
 
@@ -35,7 +35,7 @@ const HeroImg = styled.img`
 const HeroContent = styled.div`
   width: 700px;
   position: absolute;
-  top: 25%;
+  top: 40%;
   left: 50px;
 `
 
